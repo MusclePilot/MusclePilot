@@ -1,3 +1,3 @@
-target 'MyApp' do
+target 'MusclePilot' do
   use_frameworks!
 end
