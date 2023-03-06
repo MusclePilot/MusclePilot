@@ -9,12 +9,25 @@ import SwiftUI
 
 struct LandingView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("MusclePilot")
-        }.background(Image("pullups"))
+        VStack(spacing: 0.0) {
+            Text("Muscle Pilot")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(Color.white)
+                .multilineTextAlignment(.center)
+                
+                
+        }.frame(
+            maxWidth: .infinity,
+            maxHeight: .infinity
+        )
+        .background(
+            Image("musclepilot")
+                .aspectRatio(contentMode: .fill)
+                
+                
+                
+        )
         .padding()
     }
 }
