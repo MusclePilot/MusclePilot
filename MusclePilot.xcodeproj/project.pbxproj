@@ -15,6 +15,7 @@
 		0A5617C129B580B000143F9F /* MusclePilotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5617C029B580B000143F9F /* MusclePilotUITests.swift */; };
 		0A5617C329B580B000143F9F /* MusclePilotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5617C229B580B000143F9F /* MusclePilotUITestsLaunchTests.swift */; };
 		0AAF2AFE29B58F430026128C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF2AFD29B58F430026128C /* Podfile */; };
+		0AAF2B0229D3E5070026128C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF2B0129D3E5070026128C /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0A5617C029B580B000143F9F /* MusclePilotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusclePilotUITests.swift; sourceTree = "<group>"; };
 		0A5617C229B580B000143F9F /* MusclePilotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusclePilotUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0AAF2AFD29B58F430026128C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0AAF2B0129D3E5070026128C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				0A5617A729B580AF00143F9F /* LandingView.swift */,
 				0A5617A929B580B000143F9F /* Assets.xcassets */,
 				0A5617AB29B580B000143F9F /* Preview Content */,
+				0AAF2B0129D3E5070026128C /* DashboardView.swift */,
 			);
 			path = MusclePilot;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5617A829B580AF00143F9F /* LandingView.swift in Sources */,
+				0AAF2B0229D3E5070026128C /* DashboardView.swift in Sources */,
 				0A5617A629B580AF00143F9F /* MusclePilotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
